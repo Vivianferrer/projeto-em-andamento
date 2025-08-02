@@ -2,8 +2,9 @@
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
-    background-color: #ADD8E6; /* Light Blue */
-    color: #333;
+    background-color: #e4dd84; /* Light Blue */
+    background-image:repeating-radial-gradient(#000000, #c89116);
+    color: #ffe4c4;
     line-height: 1.6;
 }
 
@@ -20,7 +21,8 @@ h1, h2, h3 {
 
 /* Estilos do cabeçalho */
 header {
-    background-color: #003366; /* Deep Blue */
+    background-color: #c89116; /* Deep Blue */
+    background-image:repeating-radial-gradient(#000000, #c89116);
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -52,7 +54,7 @@ section {
 
 .hero-text h2 {
     font-size: 2.5rem;
-    color: #003366; /* Deep Blue */
+    color:bisque; /* Deep Blue */
 }
 
 .hero-image {
@@ -70,7 +72,7 @@ section {
 /* Seção Portfólio */
 #portfolio h2, #tech-stack h2 {
     text-align: center;
-    color: #003366; /* Deep Blue */
+    color:#ffe4c4; /* Deep Blue */
     margin-bottom: 2rem;
 }
 
@@ -108,6 +110,7 @@ section {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s, box-shadow 0.3s;
     display: none; /* Escondido por padrão, o JS irá mostrar */
+    color:#003366
 }
 
 .project-card.show {
@@ -133,6 +136,7 @@ section {
     margin-top: 0;
     color: #003366;
 }
+
 
 .project-tags {
     margin-top: 1rem;
@@ -174,7 +178,8 @@ section {
 footer {
     text-align: center;
     padding: 1.5rem 0;
-    background-color: #003366; /* Deep Blue */
+    background-color: #000000; /* Deep Blue */
+    background-image:repeating-radial-gradient(#000000, #c89116);
     color: #eee;
     margin-top: 2rem;
 }

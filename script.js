@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: 'Site de E-commerce',
             description: 'Uma plataforma de e-commerce moderna construída com foco em HTML e CSS.',
-            image: 'https://placehold.co/600x400.png',
+            image: '',
             tags: ['HTML', 'CSS'],
             dataAiHint: 'online store'
         },
