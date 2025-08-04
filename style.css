@@ -82,8 +82,8 @@ section {
 }
 
 .filter-btn {
-    background-color: #003366;
-    color: #fff;
+    background-color: #ffe4c4;
+    color: black;
     border: none;
     padding: 0.5rem 1rem;
     margin: 0 0.5rem;
@@ -134,7 +134,7 @@ section {
 
 .project-card h3 {
     margin-top: 0;
-    color: #003366;
+    color: black;
 }
 
 
@@ -161,7 +161,8 @@ section {
 }
 
 .tech-card {
-    background: #fff;
+    background: #ffe4c4;
+    background-color: black;
     padding: 2rem;
     text-align: center;
     border-radius: 8px;
